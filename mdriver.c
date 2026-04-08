@@ -250,9 +250,9 @@ int main(int argc, char **argv)
 {
 	int i;
 	char c;
-	char trace_from_stdin = 1;
+	char trace_from_stdin = 0;
 	char **tracefiles = NULL;  /* null-terminated array of trace file names */
-	int num_tracefiles = 1;    /* the number of traces in that array */
+	int num_tracefiles = 0;    /* the number of traces in that array */
 
 	range_t *ranges = NULL;    /* keeps track of block extents for one trace */
 	stats_t *libc_stats = NULL;/* libc stats for each trace */
