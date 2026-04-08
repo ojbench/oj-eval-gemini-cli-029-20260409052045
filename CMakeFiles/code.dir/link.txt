@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -O2 -g -DDRIVER CMakeFiles/code.dir/mdriver.c.o CMakeFiles/code.dir/mm.c.o CMakeFiles/code.dir/memlib.c.o CMakeFiles/code.dir/fsecs.c.o CMakeFiles/code.dir/fcyc.c.o CMakeFiles/code.dir/clock.c.o CMakeFiles/code.dir/ftimer.c.o CMakeFiles/code.dir/driverlib.c.o -o code 
